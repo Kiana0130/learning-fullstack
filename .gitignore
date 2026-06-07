@@ -1,0 +1,80 @@
+# DEPENDENCIES 
+node_modules/
+jspm_packages/
+web_modules/
+
+# ENVIRONMENT VARIABLES & SECRETS
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# PRODUCTION BUILDS
+dist/
+build/
+out/
+.next/
+.nuxt/
+
+# LOGS & TEMPORARY FILES 
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.cache
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# IDE & TEXT EDITORS 
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OPERATING SYSTEM
+# Linux
+.directory
+.Trash-*/
+.fuse_hidden*
+.nfs*
+# Windows
+Thumbs.db
+Ehthumbs.db
+desktop.ini
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ARCHIVES & COMPRESSED
+*.zip
+*.tar.gz
+*.7z
+*.rar
+*.gz
+
+# COMPILED LANGUAGES 
+# Python
+*.pyc
+*.pyo
+__pycache__/
+# Java
+*.class
+*.jar
+*.war
+*.ear
+# C/C++ & Binaries
+*.exe
+*.dll
+*.so
+*.dylib
